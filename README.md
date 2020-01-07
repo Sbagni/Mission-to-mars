@@ -2,13 +2,13 @@
 
 
 
-In this assignment, I build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. The following outlines what I did.
+In this assignment, I build a web application that scrapes various websites for data related to Mission to Mars and displays the information in a single HTML page. The following outlines what I did.
 
 ![mission_to_mars](https://github.com/Sbagni/Mission-to-mars/blob/master/mission_mars.png)
 
 **Scraping**
 
-Completed the initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.
+Finished the initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.
 
 Created a Jupyter Notebook file called `mission_to_mars.ipynb` and used this to complete all of scraping and analysis tasks. The following outlines what I scraped.
 
