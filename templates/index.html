@@ -38,10 +38,10 @@
   <div class = "row">
     <div class="col-lg-6">
       {% for hemisphere in mission_mars.hemisphere_img_url %}
-      <img src= "{{ mission_mars.hemisphere_img_url }}" alt="hemisphere_img"></a>
+      <img src= "{{ hemisphere }}" alt="hemisphere_img"></a>
       {%endfor%}
       {% for title in mission_mars.titles_list%}
-      <h2>{{ mission_mars.titles_list }}</h2>
+      <h2>{{ title }}</h2>
       {%endfor%}
     </div>
   </div>
