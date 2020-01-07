@@ -12,7 +12,7 @@ We used Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter for initi
 
 **NASA Mars News**
 
-Scraped the [NASA Mars News Site](https://mars.nasa.gov/news/) and collected the latest News Title and Paragraph Text. Assigned the text to variables that one can reference later.
+We scraped the [NASA Mars News Site](https://mars.nasa.gov/news/) and collected the latest News Title and Paragraph Text. Assigned the text to variables that one can reference later.
 
 ```python
 # Example:
@@ -23,9 +23,8 @@ news_p = "Preparation of NASA's next spacecraft to Mars, InSight, has ramped up 
 
 **JPL Mars Space Images - Featured Image**
 
-Visited the url for JPL Featured Space Image [here](https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars).
-
-Used splinter to navigate the site and find the image url for the current Featured Mars Image and assign the url string to a variable called `featured_image_url`.
+We visited the url for JPL Featured Space Image [here](https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars). Here we
+used splinter to navigate the site and find the image url for the current Featured Mars Image and assign the url string to a variable called `featured_image_url`.
 
 
 ```python
@@ -35,7 +34,7 @@ featured_image_url = 'https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA1
 
 ### Mars Weather
 
-Visited the Mars Weather twitter account [here](https://twitter.com/marswxreport?lang=en) and scraped the latest Mars weather tweet from the page. Saved the tweet text for the weather report as a variable called `mars_weather`.
+Another important part of this assignment was to visit the Mars Weather twitter account [here](https://twitter.com/marswxreport?lang=en) and scrape the latest Mars weather tweet from the page. We saved the tweet text for the weather report as a variable called `mars_weather`.
 
 ```python
 # Example:
