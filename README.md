@@ -1,4 +1,4 @@
-**Mission to Mars**
+### Mission to Mars
 
 
 
@@ -32,7 +32,7 @@ used splinter to navigate the site and find the image url for the current Featur
 featured_image_url = 'https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA16225_hires.jpg'
 ```
 
-### Mars Weather
+**Mars Weather**
 
 Another important part of this assignment was to visit the Mars Weather twitter account [here](https://twitter.com/marswxreport?lang=en) and scrape the latest Mars weather tweet from the page. We saved the tweet text for the weather report as a variable called `mars_weather`.
 
